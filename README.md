@@ -9,6 +9,6 @@
 ```
 python predict.py IMAGE_NAME.jpg
 ```
-- Output in images_after_deblur/ directory
+- Output in directory images_after_deblur/ 
 ## Requirement
 - Create virtual enviroments and run file requirements.txt to automatic install required package
