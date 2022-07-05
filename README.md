@@ -1,5 +1,5 @@
 # DeblurGANV2_modified 
-## Installion
+## Installation
 - Download pre-trained models: [fpn_inception.h5](https://drive.google.com/uc?export=view&id=1UXcsRVW-6KF23_TNzxw-xC0SzaMfXOaR) </br>
   | - Move file fpn_inception.h5 to directory models/
 - Download file .pth: [inceptionresnetv2](https://drive.google.com/uc?id=1y6GeaoWjhqjRjrXuZvCYEQYlblZGkE6X) </br>
