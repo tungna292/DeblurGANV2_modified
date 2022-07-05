@@ -72,11 +72,11 @@ class Predictor:
         return self._postprocess(pred)[:h, :w, :]
 
 def main(img_pattern: str,
+         side_by_side: bool = False,
          mask_pattern: Optional[str] = None,
          weights_path='models/fpn_inception.h5',
-         out_dir='after_deblur/',
-         side_by_side: bool = False,
-         video: bool = False):
+         out_dir='images_after_deblur/',
+         ):
     def sorted_glob(pattern):
         return sorted(glob(pattern))
 
